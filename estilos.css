@@ -1,6 +1,6 @@
-@import "css/Planetas/venus.css";
-@import "css/Planetas/tierra.css";
-@import "css/Planetas/marte.css";
+@import "venus.css";
+@import "tierra.css";
+@import "marte.css";
 
 
 body, html {
