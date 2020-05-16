@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar {
+    background-color: transparent !important; 
+}
+
+.navbar a {
+    font-size: 2vw;
+
+}
+
+/* MENU DEL SIGUIENTE PLANETA */
+.menu2 .navbar a{
+  color:white;
+  margin-left: 1120px;
+  margin-top: 130px;
+}
+
+.imageMercurio {
+
+  background-image: url("tierra.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1{
+
+    color: white;
+    letter-spacing: 4px;
+    font-size: 8vw;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+  .card{
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 10px;
+  }
+
+    .mercuP{
+    color: white; 
+    letter-spacing: 2px;
+  }
+
+
+/* EMPIEZA EL RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+
+/* TODO EL CUERPO */
+  body{height: 100%;}
+
+
+/* MENU DE REGRESAR*/
+  .navbar a{
+    font-size: 5vw;
+  }
+
+/* imagen de fondo del planeta*/
+  .imageMercurio {
+  background-image: url("tierra.jpg");
+  height: 50%;
+  }
+
+/*Tarjeta con informacion del planeta */
+  .card{
+    border-radius: 15px;
+  }
+
+  .infoMercurio{ height: 80%;}  
+
+  .mercuP{
+    color: white; 
+    font-size: 5vw;
+    letter-spacing: 2px;
+  }
+
+  .mercuH1{
+
+    color: white;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    margin-top: 215px;
+    font-size: 12vw;
+    font-weight: bold;
+
+  }
+/* FIN TARJETA CON INFORMACION DEL PLANETA*/
+
+/* MENU PARA LA SIGUIENTE PAGINA */
+  .menu2 .navbar a{
+    color:white;
+    margin-top: 140px;
+    margin-left: 290px;
+  }
+
+} 
+/* FIN MOBILE VERSION*/
+
